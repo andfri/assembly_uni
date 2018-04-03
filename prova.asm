@@ -7,5 +7,5 @@
 CICLO: STORE R1 R2
        ADD R2 R2 0x1
        ADD R1 R1 0x1
-       BLE R2 R3 FOR
+       BLE R2 R3 CICLO
 FINE:  END  
